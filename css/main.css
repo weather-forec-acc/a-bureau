@@ -103,11 +103,11 @@
   animation: Gradient 15s linear infinite;
   overflow: hidden;
   text-align: center;
-  font-size: 68px;
 }
 
 /* Текст заголовка РЕГИСТРАТУРА */
 .col2 > span {
+  font-size: 68px;
   background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet, orange);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -181,4 +181,9 @@
   text-align: center;
   height: 45px;
   line-height: 45px;
+}
+
+.gl-res {
+  color: gold;
+  font-size: 20px;
 }
