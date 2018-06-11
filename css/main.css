@@ -185,5 +185,8 @@
 
 .gl-res {
   color: gold;
-  font-size: 20px;
+  font-size: 28px;
+  font-family: Tahoma;
+  border-top: 1px solid gold;
+  border-bottom: 1px solid gold;
 }
