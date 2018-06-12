@@ -176,13 +176,20 @@
 }
 
 .footer {
-  background-color: black;
   color: white;
   text-align: center;
   height: 45px;
   line-height: 45px;
+  animation: color_change 10s infinite alternate;
 }
+@keyframes color_change {
+  0% { background-color: #800080; }
+  25% { background-color: Blue; }
+  50% { background-color: Green; }
+  75% { background-color: Orange; }
+  100% { background-color: Red; }
 
+}
 .gl-res {
   color: gold;
   font-size: 28px;
