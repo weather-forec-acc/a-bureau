@@ -1,3 +1,7 @@
+body {
+  background: #000;
+  margin: 0;
+}
 /* Текст заголовка РЕГИСТРАТУРА */
 .gradient-1 {
   display:inline-block;
@@ -111,7 +115,7 @@
 }
 
 #layout {
-  background: linear-gradient(90deg, #000 45%, #ff0, #000 55%);
+  background: #000; /*linear-gradient(90deg, #000 45%, #ff0, #000 55%);*/
   background-size: 200% 100%;
   /*animation: Gradient 15s linear infinite;*/
   overflow: hidden;
@@ -211,14 +215,13 @@
   border-bottom: 1px solid gold;
 }
 
-html {
+#space-outer {
+  width: 100%;
+  height: 1610px;
   max-height: 1610px;
-  overflow-x: hidden;
-  overflow-y:scroll;
-}
-
-body {
-  background: #000;
+  position: absolute;
+  left: 0px;
+  top: 0px;
   overflow: hidden;
 }
 
